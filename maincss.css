@@ -2,14 +2,84 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 header {
     background-color: #ecff73;
     height: 110px;
 }
 body {
-    background-color: #8D43BF;
+    background-color: #EEEDFE;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ecff73;
+    height: auto;
+    width: 100vw;
+    font-family: "open sans";
+    padding-top: 40px;
+    color: #4b4a4d;
+}
+.footer-content {
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;    
+}
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li {
+    margin: 0 10px;
+}
+.socials a {
+    text-decoration: none;
+    color: #4b4a4d;
+}
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover {
+    color: #daf543;
+}
+.footer-bottom {
+    background: #ecff73;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
 }
 img {
     height: 80px;
@@ -30,16 +100,23 @@ nav {
 div {
     float: left;
 }
-li {
+.li-nav {
     display: inline-block;
     height: 30px;
     padding: 40px 0px;
     width: 176.05px;
     text-align: center;
 }
+
+
+.footer {
+
+}
+
+
 a {
     text-decoration: none;
-    color: #8D43BF;
+    color: #4b4a4d;
 }
 li:hover {
     background-color: #daf543;
@@ -53,7 +130,7 @@ li:hover {
 .absolute {
     position: absolute;
     right: 0px;
-    margin-top: 51px;
+    margin-top: 49px;
     background-color: #ecff73;
     border: none;
 }
