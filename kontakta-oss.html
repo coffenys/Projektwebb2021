@@ -1,53 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>JENY AB</title>
+        <title>Kontakta oss</title>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="maincss.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+        <link rel="stylesheet" href="maincss.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+        <script> src="https://kit.fontawesome.com/64d58efce2.js"; crossorigin="anonymous" </script>
+    
     </head>
     <body>
         <header>
-            <div>
+            <div class="align-left">
                 <a href="index.html" rel="homepage">
-                <img alt="JENY logo" src="JENY-logga.png">
+                <img alt="JENY logo" src="img/JENY-logga.png">
              </a>
-            <h1></h1>
             </div>
 
             <nav>
                     <ul>
-                        <li id="relative"> 
-                            <a href="kansli-Tjänster.html">Kansli-Tjänster</a> 
+                        <li class="li-nav" id="relative"> 
+                            <a href="kansli-Tjänster.html">Kanslitjänster</a> 
                             <ul class="absolute" id="hide">
-                                <li> <a href="#">Medlemsvärvning</a> </li>
-                                <li > <a href="#">Omvärldsbevakning</a> </li>
+                                <li class="li-nav"> <a href="#">Medlemsvärvning</a> </li>
+                                <li class="li-nav"> <a href="#">Omvärldsbevakning</a> </li>
                             </ul>   
                         </li>
-                        <li > 
+                        <li class="li-nav"> 
                             <a href="möten.html">Möten</a>
                          </li>
-                        <li id="relative"> 
+                        <li class="li-nav" id="relative"> 
                             <a href="projektledning.html">Projektledning</a>
                             <ul class="absolute" id="hide">
                                 
-                                <li > <a href="#">Försäljningsuppdrag</a> </li>
-                                <li > <a href="#">Mässor</a> </li>
+                                <li class="li-nav" > <a href="#">Försäljningsuppdrag</a> </li>
+                                <li class="li-nav" > <a href="#">Mässor</a> </li>
                             </ul>   
                         </li>
-                        <li > <a href="interimsuppdrag.html">Interimsuppdrag</a> </li>
-                        <li > <a href="kontakta-oss.html">Kontakta oss</a> </li>
+                        <li class="li-nav" > <a href="interimsuppdrag.html">Interimsuppdrag</a> </li>
+                        <li class="li-nav" > <a href="kontakta-oss.html">Kontakta oss</a> </li>
     
     
                     </ul>
-                </nav>
+            </nav>
 
         </header>
-        <footer>
-                <div class="footer">
-                        <p>Footer</p>
+
+    <div class="container">
+        <span class="big-circle"></span>
+        <div class="form">
+            <div class="contact-info"></div>
+                <h3 class="title">Kontaka oss för mer information!</h3>
+                
+                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque reprehenderit ut atque dolores iste.</p>
+                
+                <div class="info">
+                    <div class="information">
+                        <img src="img/location1.png" class="icon" alt="">
+                        <p>Benvedsvägen 19, 561 38 Huskvarna</p>
+                    </div>
+                    <div class="information">
+                        <img src="img/email1.png" class="icon" alt="">
+                        <p>jorgen.nystrom@jeny.se</p>
+                    </div>
+                    <div class="information">
+                        <img src="img/phone1.png" class="icon" alt="">
+                        <p>0703-65-40-99</p>
+                    </div>
                 </div>
+                <div class="social-media">
+                    <p>Hitta oss på sociala medier</p>
+                    <div class="social-icon">
+                        <a href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-linkedin-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+
+                <form action="index.html">
+                <h3 class="title">Kontakta oss</h3>
+                
+                    <div class="input-container">
+                        <input type="text" name="name" class="input">
+                        <label for="">Namn</label>
+                        <span>Namn</span>    
+                    </div>
+
+                    <div class="input-container">
+                        <input type="email" name="email" class="input">
+                        <label for="">Email</label>
+                        <span>Email</span>    
+                    </div>
+
+                    <div class="input-container">
+                        <input type="tel" name="phone" class="input">
+                        <label for="">Telefon</label>
+                        <span>Telefon</span>    
+                    </div>
+
+                    <div class="input-container textarea">
+                        <textarea name="message" class="input"></textarea>
+                        <label for="">Meddelande</label>
+                        <span>Meddelande</span>   
+                        
+                    </div>
+                    
+                    <input type="submit" value="Send" class="btn"> 
+                </form>   
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+        
+
+        <footer>
+            <div class="footer-content">
+                <h3>JENY AB</h3>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy;2021 JENYAB. designed by <span>nystrom</span></p>
+            </div>
         </footer>
     </body>
 </html>
